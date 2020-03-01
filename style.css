@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Alef", sans-serif;
+    font-weight: 300;
+    background: center center no-repeat;
+
+
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0% auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width:768px){
+    .container{
+        flex-direction: row;
+    }
+    
+}
+
+
+
+.title h1 {
+    /* Style for "Gal Sasson" */
+    width: 676px;
+    height: 156px;
+    text-shadow: 0 4px 6px #000000;
+    color: #a7a7a7;
+    font-family: "Century Gothic";
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 130px;
+    transform: translate(10%, 100%);
+    transition: 1s all cubic-bezier(0.18, 0.89, 0.32, 1.28);
+
+
+}
+
+
+
+.title h3 {
+    /* Style for "ABOUT" */
+    color: #444444;
+    font-family: "Century Gothic";
+    font-size: 150px;
+    text-transform: uppercase;
+    transform: translate(10%, 20%);
+    transition: 1s all cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    background-size: 80%;
+}
+
+.galsyn h1 {
+
+    text-shadow: 3px 3px 2px #000000;
+    color: #ff7777;
+    font-family: "Century Gothic";
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    
+   
+
+}
+.galsyn h3 {
+    /* Style for "ABOUT" */
+    text-shadow: 3px 3px 2px #000000;
+    color: #ff7777;
+    font-family: "Century Gothic";
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+
+    
+
+}
+
+
+.galsyn{
+    width: 100%;
+    background-image: url(PIC/);
+    background-position: 10% 10%;
+
+}
+
+
+
+.galinfo{
+    width: 50%;
+    padding: 2%;
+    background-color: rgba(255, 189, 189, 0.24);
+    border: 1px solid #000000;
+
+}
+
+.galinfo h2 {
+    font-size: 20px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-align: left;
+
+}
+
+
+
+.galimg {
+
+    width: 60%;
+    padding:0 2%;
+    
+}
+.hidden {
+
+overflow: hidden;
+    
+}
+
+.galimg .overlay {
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    
+  }
+  
+  .galimg:hover .overlay {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5) rotate(-2.0deg);
+
+  }
+  .galimg:hover .text{
+
+    display: block;
+  }
+  
+  .text {
+    display: none;
+    width: 676px;
+    height: 156px;
+    text-shadow: 0 4px 6px #000000;
+    color: #a7a7a7;
+    font-size: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+.logo1 {
+    /* Style for "gs" */
+    width: 1200px;
+    height: 46px;
+    color: #444444;
+    font-family: "Century Gothic";
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+.lgs{
+    padding: 0 1%;
+}
+
+
+.whiteline {
+    background-image: url('PIC/Rectangle_1.png');
+
+
+}
+
+
+img {
+    max-width: 100%;
+    max-height: auto;
+
+}
+
+.main {
+    background: #ffffff center center no-repeat;
+
+
+}
+.backg{
+   width: 100%;
+    background:url(PIC/Path_17.png) center no-repeat;
+    background-size: 80%;
+
+}
+
+
+.midd  {
+    width: auto;
+    background: #ffffff center content-box no-repeat;
+    background-size: 600px;
+
+}
+
+
+.footer {
+
+    background: #ffffff center content-box no-repeat;
+    height: 280px;
+    background-image: url(PIC/Rectangle_17.png);
+
+}
+
+.sub {
+    /* Style for "SUBSCRIBE" */
+    width: 202px;
+    height: 71px;
+    color: #000000;
+    font-family: "Century Gothic";
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 5.7px;
+    text-transform: uppercase;
+    text-align: center;
+
+
+}
+
+.bottom {
+
+    width: 100%;
+
+    background-image: url(PIC/Rectangle_18.png);
+}
+
+
+
+.sub .srch2 {
+    border: 3px solid #000000;
+}
+
+
+
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.footer .container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0% auto;
+    position: relative;
+}
+
+.border{
+    border-top: 1px #000000 solid;
+    padding: 2% 0;
+    
+}
