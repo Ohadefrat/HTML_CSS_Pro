@@ -23,11 +23,12 @@ body {
     display: flex;
     flex-direction: column;
 }
-@media screen and (min-width:768px){
-    .container{
+
+@media screen and (min-width:768px) {
+    .container {
         flex-direction: row;
     }
-    
+
 }
 
 
@@ -42,7 +43,7 @@ body {
     font-size: 100px;
     font-weight: 700;
     line-height: 130px;
-    transform: translate(10%, 100%);
+    transform: translate(20%, 60%);
     transition: 1s all cubic-bezier(0.18, 0.89, 0.32, 1.28);
 
 
@@ -70,10 +71,11 @@ body {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
-    
-   
+
+
 
 }
+
 .galsyn h3 {
     /* Style for "ABOUT" */
     text-shadow: 3px 3px 2px #000000;
@@ -84,12 +86,12 @@ body {
     font-size: 40px;
     font-weight: 700;
 
-    
+
 
 }
 
 
-.galsyn{
+.galsyn {
     width: 100%;
     background-image: url(PIC/);
     background-position: 10% 10%;
@@ -98,7 +100,7 @@ body {
 
 
 
-.galinfo{
+.galinfo {
     width: 50%;
     padding: 2%;
     background-color: rgba(255, 189, 189, 0.24);
@@ -120,43 +122,45 @@ body {
 .galimg {
 
     width: 60%;
-    padding:0 2%;
-    
+    padding: 0 2%;
+
 }
+
 .hidden {
 
-overflow: hidden;
-    
+    overflow: hidden;
+
 }
 
 .galimg .overlay {
-    
+
     bottom: 0;
     left: 0;
     right: 0;
     overflow: hidden;
     width: 100%;
-    
+
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
     -webkit-transition: .3s ease;
     transition: .3s ease;
-    
-  }
-  
-  .galimg:hover .overlay {
+
+}
+
+.galimg:hover .overlay {
     -webkit-transform: scale(1.5);
     -ms-transform: scale(1.5);
     transform: scale(1.5) rotate(-2.0deg);
 
-  }
-  .galimg:hover .text{
+}
+
+.galimg:hover .text {
 
     display: block;
-  }
-  
-  .text {
+}
+
+.text {
     display: none;
     width: 676px;
     height: 156px;
@@ -170,7 +174,7 @@ overflow: hidden;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
 
 
 .logo1 {
@@ -182,9 +186,10 @@ overflow: hidden;
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
-    
+
 }
-.lgs{
+
+.lgs {
     padding: 0 1%;
 }
 
@@ -207,15 +212,27 @@ img {
 
 
 }
-.backg{
-   width: 100%;
-    background:url(PIC/Path_17.png) center no-repeat;
-    background-size: 80%;
 
+#buttons {
+    text-align: center;
+}
+
+#video {
+    width: 100%;
+
+}
+#video-player {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 30px;
+    margin: 0% auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 
-.midd  {
+.midd {
     width: auto;
     background: #ffffff center content-box no-repeat;
     background-size: 600px;
@@ -276,8 +293,8 @@ img {
     position: relative;
 }
 
-.border{
+.border {
     border-top: 1px #000000 solid;
     padding: 2% 0;
-    
+
 }
